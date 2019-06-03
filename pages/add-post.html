@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../style.css">
+  <title>Додавання нового посту</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="panel">
+      <p id="burger"><i class="fas fa-align-justify"></i></p>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <ul>
+            <li class="menu-items"><a href="../index.html">MemoLib</a></li>
+            <li class="menu-items"><a href="../index.html">Головна</a></li>
+            <li class="menu-items"><a href="../pages/contacts.html">Контакти</a></li>
+            <li class="menu-items">
+              <a href="#">Галерея</a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items"><a href="../pages/galery-img.html">Картинки</a></li>
+                <li class="sub-menu-items"><a href="../pages/galery-videos.html">Відео</a></li>
+              </ul>
+            </li>
+            <li class="menu-items"><a href="../pages/add-post.html">Додати пост</a></li>
+          </ul>
+        </nav>
+        <div id="showUser"></div>
+      </div>
+      <div class="search">
+        <input type="text" id="search-input">
+        <button id="search-btn">Пошук</button>
+      </div>
+    </div>
+    <div id="sandwich-sidebar">
+      <ul>
+        <li class="sandwich-menu-items"><a href="../index.html">Головна</a></li>
+        <li class="sandwich-menu-items"><a href="../pages/contacts.html">Контакти</a></li>
+        <li class="sandwich-menu-items"><a href="../pages/add-post.html">Додати пост</a></li>
+        <li class="sandwich-menu-items"><a href="#">Галерея</a>
+          <ul class="sandwich-sub-menu">
+            <li class="sandwich-sub-menu-items"><a href="../pages/galery-img.html">Картинки</a></li>
+            <li class="sandwich-sub-menu-items"><a href="../pages/galery-videos.html">Відео</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="add-content">
+    <h1>Вкажіть дані для нового поста</h1>
+    <form>
+      <p>Введіть заголовок (якщо потрібно)</p><input type="text" placeholder="title" id="add-title">
+      <p>Введіть тип поста
+        <select name="typePosts" id="selectBox" onchange="typePost();">
+          <option value="image">Пост з картинкою</option>
+          <option value="video">Пост з відео</option>
+        </select>
+      </p>
+      <div id="addPicture">
+        <p>Введіть URL картинки</p><input type="text" placeholder="URL" id="imgSrc">
+      </div>
+      <div id="addVideo">
+        <p>Введіть URL відео</p><input type="text" placeholder="URL" id="videoSrc">
+      </div>
+      <p>Введіть URL аудіо (якщо потрібно)</p><input type="text" placeholder="URL" id="audioSrc">
+      <p>Введіть тег (якщо потрібно)</p><input type="text" placeholder="#" id="tag">
+      <p>Введіть опис (якщо потрібно)</p>
+      <textarea cols="25" rows="5" placeholder="description" id="descriptionTextarea"></textarea><br>
+      <input type="submit" value="Додати новий пост" id="addPostBtn">
+    </form>
+  </div>
+
+  <script src="../js/requests.js"></script>
+  <script src="../js/new-post.js"></script>
+</body>
+
+</html>

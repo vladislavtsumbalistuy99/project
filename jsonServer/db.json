@@ -1,0 +1,798 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "login": "11111",
+      "password": "1111"
+    },
+    {
+      "id": "2",
+      "login": "Dimooon",
+      "password": "222"
+    },
+    {
+      "login": "Anna",
+      "password": "333",
+      "id": "3"
+    },
+    {
+      "login": "max15",
+      "password": "max12345",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "login": "Slava75",
+      "password": "123"
+    },
+    {
+      "id": "6",
+      "login": "Ira77",
+      "password": "111"
+    },
+    {
+      "id": "7",
+      "login": "Slava",
+      "password": "111"
+    },
+    {
+      "id": "8",
+      "login": "Vadya97",
+      "password": "111"
+    },
+    {
+      "id": "9",
+      "login": "Sanek",
+      "password": "111"
+    },
+    {
+      "id": "10",
+      "login": "Slava75",
+      "password": "111"
+    },
+    {
+      "login": "123",
+      "password": "123",
+      "id": "kAh8qn8"
+    }
+  ],
+  "content": [
+    {
+      "id": "1",
+      "label": "Diana",
+      "type": "image",
+      "imageSrc": "./content/images/1.jpg",
+      "videoSrc": "",
+      "audioSrc": "./content/audio/00162.mp3",
+      "tag": "funny",
+      "author": "max15",
+      "likes": 282,
+      "description": "Діана, принцеса Уельська (англ. Diana, Princess of Wales дівоче ім'я: Diana Frances Spencer; 1 липня 1961 — 31 серпня 1997) — британська шляхтянка з родини Спенсер-Черчилль, до якої належали герцог Мальборо та Вінстон Черчилль, донька графа Джона Спенсера, віконта Елторпа, та Френсіс Рут Рош.",
+      "coments": [
+        {
+          "user": "max15",
+          "comentLikes": "5",
+          "comentText": "Ахахахах"
+        },
+        {
+          "user": "Slava75",
+          "comentLikes": "1",
+          "comentText": "Круто"
+        },
+        {
+          "user": "Sanek",
+          "comentLikes": "6",
+          "comentText": "Люблю цей мем"
+        },
+        {
+          "user": "Vadya97",
+          "comentLikes": "5",
+          "comentText": "Чудово!"
+        },
+        {
+          "user": "Slava",
+          "comentLikes": "9",
+          "comentText": "Виглядить смішно)))"
+        },
+        {
+          "user": "Anna",
+          "comentLikes": "990",
+          "comentText": "Куплю гараж"
+        },
+        {
+          "user": "Dimoon",
+          "comentLikes": "788",
+          "comentText": "Продам гараж"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "1",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Jon Snow",
+      "type": "image",
+      "imageSrc": "./content/images/2.jpg",
+      "videoSrc": "",
+      "audioSrc": "./content/audio/00393.mp3",
+      "tag": "got",
+      "author": "Anna",
+      "likes": "550",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "78",
+          "comentText": ";((("
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "110",
+          "comentText": "сумно, сумно аж за край..."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "label": "GOT",
+      "type": "image",
+      "imageSrc": "./content/images/3.jpg",
+      "videoSrc": "",
+      "audioSrc": "./content/audio/02112.mp3",
+      "tag": "got",
+      "author": "slava75",
+      "likes": "160",
+      "description": "",
+      "coments": [
+        {
+          "user": "max15",
+          "comentLikes": "5",
+          "comentText": "Ахахахах"
+        },
+        {
+          "user": "Slava75",
+          "comentLikes": "1",
+          "comentText": "Круто"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "Ахахаха"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "label": "Добрий ранок!",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback.mp4",
+      "audioSrc": "",
+      "tag": "ранок",
+      "author": "slava75",
+      "likes": "850",
+      "description": "",
+      "coments": [
+        {
+          "user": "Vadya97",
+          "comentLikes": "5",
+          "comentText": "Чудово!"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Сценарій",
+      "type": "image",
+      "imageSrc": "./content/images/4.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "got",
+      "author": "IgorOK",
+      "likes": "340",
+      "description": "",
+      "coments": [
+        {
+          "user": "Vadya97",
+          "comentLikes": "5",
+          "comentText": "Так..."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "label": "Хмммммм",
+      "type": "image",
+      "imageSrc": "./content/images/5.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "340",
+      "description": "",
+      "coments": [
+        {
+          "user": "Anna",
+          "comentLikes": "90",
+          "comentText": "Я знала!"
+        },
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Black humor",
+      "type": "image",
+      "imageSrc": "./content/images/6.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/7.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/8.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/9.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": 263,
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "eewvwdv"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "eewvwdv"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "aaaaaaaaaaaaaaaaaaaaaa"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "aaaaa"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": ",,,,,,,,,,,"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "((((((((((("
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "yess"
+        },
+        {
+          "user": "123",
+          "comentLikes": "0",
+          "comentText": "!!!!!!!!!"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/10.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/11.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/12.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/13.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/14.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/15.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/16.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/17.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/18.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/19.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/20.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "label": "Just another mem...",
+      "type": "image",
+      "imageSrc": "./content/images/21.jpg",
+      "videoSrc": "",
+      "audioSrc": "",
+      "tag": "mem",
+      "author": "Vadua97",
+      "likes": "1000",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimosdfbon",
+          "comentLikes": "180",
+          "comentText": "Ахаха"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback2.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback3.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback4.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback5.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback6.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": "260",
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "label": "Just another video...",
+      "type": "video",
+      "imageSrc": "",
+      "videoSrc": "./content/videos/videoplayback7.mp4",
+      "audioSrc": "",
+      "tag": "video",
+      "author": "Vadua97",
+      "likes": 262,
+      "description": "",
+      "coments": [
+        {
+          "user": "Dimoon",
+          "comentLikes": "8",
+          "comentText": "Ахаха"
+        },
+        {
+          "user": "IgorOK",
+          "comentLikes": "10",
+          "comentText": ";)))))"
+        }
+      ]
+    }
+  ]
+}

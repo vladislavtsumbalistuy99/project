@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../style.css">
+  <title>Контакти</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="panel">
+      <p id="burger"><i class="fas fa-align-justify"></i></p>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <ul>
+            <li class="menu-items"><a href="../index.html">MemoLib</a></li>
+            <li class="menu-items"><a href="../index.html">Головна</a></li>
+            <li class="menu-items"><a href="../pages/contacts.html">Контакти</a></li>
+            <li class="menu-items">
+              <a href="#">Галерея</a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items"><a href="../pages/galery-img.html">Картинки</a></li>
+                <li class="sub-menu-items"><a href="../pages/galery-videos.html">Відео</a></li>
+              </ul>
+            </li>
+            <li class="menu-items"><a href="../pages/add-post.html">Додати пост</a></li>
+          </ul>
+        </nav>
+        <div id="showUser"></div>
+      </div>
+      <div class="search">
+        <input type="text" id="search-input">
+        <button id="search-btn">Пошук</button>
+      </div>
+    </div>
+    <div id="sandwich-sidebar">
+      <ul>
+        <li class="sandwich-menu-items"><a href="../index.html">Головна</a></li>
+        <li class="sandwich-menu-items"><a href="../pages/contacts.html">Контакти</a></li>
+        <li class="sandwich-menu-items"><a href="../pages/add-post.html">Додати пост</a></li>
+        <li class="sandwich-menu-items"><a href="#">Галерея</a>
+          <ul class="sandwich-sub-menu">
+            <li class="sandwich-sub-menu-items"><a href="../pages/galery-img.html">Картинки</a></li>
+            <li class="sandwich-sub-menu-items"><a href="../pages/galery-videos.html">Відео</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="contact-content">
+    <h1 class="contact-head">Контакти</h1>
+    <div id="map"></div>
+    <p>Телефон: +380671382237</p>
+    <p>Email: Vlastelin1599@gmail.com</p>
+    <p>Адрес: вул.Келецька 98</p>
+  </div>
+
+  <script src="../js/map.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhUuNIBcRr6TUakZyT5IPN4fi1fzUecko&callback=initMap"
+    type="text/javascript"></script>
+
+
+  <script src="../js/requests.js"></script>    
+</body>
+
+</html>
